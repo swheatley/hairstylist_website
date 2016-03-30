@@ -1,0 +1,419 @@
+
+body{
+
+color: black;
+font-family:'Arvo', serif;
+font-weight: bolder;
+text-align: center;
+background:  #3F9FCA;
+width: 100%;
+min-height: 1000px;
+
+}
+
+header .sharon{
+  border-radius: 50%;
+  border: solid 5px white;
+  float: left;
+  max-width: 300px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+
+
+}
+.sharon{
+  margin-top: 40px;
+}
+header .sh{
+  margin-bottom: 30px;
+}
+
+#hair{
+  letter-spacing: 25px;
+}
+span#title, span#hair{
+  font-size: 65px;
+}
+
+.cutting{
+  width: 100%;
+  opacity: 0.3;
+}
+#map{
+
+  border: solid black 10px;
+  margin-top: 5%;
+  border-radius: 25px;
+  
+}
+
+.background_image{
+    position: ;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+i{
+
+  background-color: white;
+  border: solid 3px black;
+  border-radius: 5px;
+  display: block;
+  margin: 5px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding: 5px;
+}
+.fa-facebook{
+  width: 40px;
+
+}
+
+tel, address{
+  font-size: 20px;
+}
+.sh{
+  
+  font-size: 6em;
+  padding: 5px;
+  margin-bottom: 5%;
+  text-shadow: 1px 1px white;
+  text-align:center;
+  float: right;
+  margin-right: 5%;
+
+}
+a.twitter-share-button{
+  margin-top: 5px;
+
+}
+/* navbar  */
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: white;
+
+}
+.navbar-default .navbar-nav>li>a {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+h2{
+
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+  margin-top: 5%;
+}
+
+h2 bold{
+
+  text-shadow: 1px 1px white;
+  font-size: 40px;
+  
+
+}
+.title{
+  
+  padding: 10px;
+  }
+ #title, #hair{
+  margin-top: 20px;
+ 
+  float: left;
+ } 
+ h1 #hair{
+  margin-right: 20px;
+ }
+ .navbar-nav a{
+  margin: 20px;
+  
+ }
+ .navbar-nav li{
+  font-size: 20px;
+
+ }
+
+#mom{
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+ 
+}
+.contact_info{
+  float: left;
+  margin-top: 100px;
+  margin-left: 60px;
+
+}
+ul{
+  
+  padding: 20px;
+  margin: 15px;
+}
+ul li {
+
+  
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+
+  
+}
+
+
+section{
+ margin-left: 20px;
+ display: inline;
+}
+
+
+.btn-default{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-shadow: .2px .2px white;
+  
+}
+a.username:hover{
+
+  color: #777;
+}
+/* Navbar */
+
+.nav-pills{
+  margin-left: 650px;
+  font-size: 20px;
+}
+.menu{
+  background-color: white;
+
+}
+ li a, a{
+  color: black;
+ }
+p a:hover{
+  background-color: white;
+  text-decoration: none;
+  
+}
+p a{
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.lead {
+
+  font-size: 40px;
+  margin-top: 5%;
+
+  
+}
+li:hover{
+  background-color: black;
+
+
+}
+.dropdown-menu li:hover{
+  color: white;
+}
+.dropdown a{
+
+}
+.glyphicon-arrow-up{
+  font-size: 30px;
+  background-color: white;
+}
+.login_button{
+  background-color: clear !important;
+}
+/* Footer */
+
+.footer{
+  margin-top: 50px;
+  background-color: #f8f8f8;
+}
+
+ .image{
+  background-image: url('images/cutting.jpg');
+  min-width: 100%;
+
+  
+}
+
+/* Services */
+h1.services {
+  font-size: 100px;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  text-shadow: 1px 1px white;
+}
+.title{
+  padding: 10px;
+}
+.black{
+ 
+  background-color: black;
+  border-radius: 1%;
+  box-shadow: 10px 10px 100px;
+}
+.table-striped{
+  border: solid black 5px;
+  margin-top: 20px;
+
+  
+}
+th{
+ 
+ background-color: black;
+ color: white;
+ text-align: center;
+}
+tbody{
+  background-color: lightgrey;
+  box-shadow: 10px 10px 10px;
+  border: solid 5px black;
+
+}
+
+.img-responsive{
+  background-color: lightgrey;
+  box-shadow: 10px 10px 10px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1px;
+}
+.col-padleft-none{
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+/* Stylish Seniors */
+
+.seniors, .hip{
+   background-color: white;
+   border-radius: 25%;
+   padding: 10px;
+}
+
+.senior_button{
+  display: block;
+
+}
+/* Carousel */
+.carousel-indicators {
+  bottom: -2em;
+}
+
+.carousel .item {
+  min-height: 350px; 
+  height: 100%;
+  width:100%; 
+}
+
+
+/* Young Pics */
+
+.hip:hover{
+  background-color: white;
+}
+.young-pics{
+  
+  font-size: 7em;
+  margin-top: -10px;
+  margin-bottom: 5%;
+  text-shadow: 1px 1px white;
+}
+/* forms */
+#message{
+  font-size: 65px;
+  text-align: center;
+  text-shadow: 1px 1px white;
+}
+.return{
+  margin-top: 40px;
+  text-align: center;
+}
+.login{
+  margin-bottom: 15%;
+  text-shadow: 1px 1px white;
+  font-size: 50px;
+}
+
+.btn-primary{
+  background-color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+hr{
+  margin-top: 5%;
+  border: solid 5px white;
+}
+p, label{
+  font-size: 20px;
+}
+
+.text-align-center a {
+  font-size: 20px;
+}
+.help-block{
+  color: blue;
+  font-weight: bolder;
+}
+.alert-danger{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+#submit-id-submit{
+  background-color: #337ab7;
+}
+.messages .success {
+    font-size: 40px;
+    border: none;
+}
+.salon{
+  margin-top: 10%;
+  border: solid 10px black;
+}
+.copy{
+  position: relative;
+  margin-top: -40px;
+  opacity: 0.5;
+}
+.django{
+  display: inline;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -35px;
+  opacity: 0.5;
+
+}
+/* Seniors */
+.stylish-seniors, .updo, {
+  font-size: 80px;
+  text-shadow: 1px 1px white;
+  margin: 0 auto;
+  margin-bottom: 8%;
+}
+/* Password Reset */
+
+#password, .email{
+  text-shadow: 1px 1px white;
+  font-size: 60px;
+  margin-bottom: 8%;
+
+}
+.pswd{
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+

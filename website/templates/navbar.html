@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/services">Services</a></li>
+               <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    Hair Designs<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/young_pics">Cuts and Colors</a><li>
+                        <li><a href="/updo">Updo's</a><li>
+                        <li><a href="/stylish_seniors">Stylish Seniors</a><li>
+                    </ul>
+                </li>
+                <li><a href="/contact_view">Contact Me!</a></li>
+  
+            
+            {% if request.user.is_authenticated %}
+                <li><a href="{% url 'auth_logout' %}">Logout</a></li>
+                <li><a class="username" href="/">{{request.user}}</a></li>
+
+                {% else %}
+                <li><a href="{% url 'auth_login' %}">Login</a></li>
+                <li><a href="{% url 'registration_register' %}">Register</a></li>
+            {% endif %}
+            </ul>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+{% endblock %}
+            

@@ -1,0 +1,97 @@
+
+{% load static from staticfiles %}
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="sharon haddaway's hair designs">
+    <meta name="keywords" content="hair salon, millcreek, sharons, greg's hair salon, hairstylist, utah">
+    <title>Sharon's Hair Designs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Goblin+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'/>
+    <link rel="icon" type="image/png"  href="{% static 'favicon/favicon.ico' %}">
+    <link rel='stylesheet' href="{% static 'css/mystyle.css' %}">
+</head>
+<body>
+
+
+<img class="cutting" src="{% static 'images/cutting.jpg' %}" id="image" alt="hair">
+        
+    <div class="container blue">
+
+     
+
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="row">
+
+                
+                <header>
+                    <h1 class="sh"><span id="title">Sharon Haddaway</span><br><span id="hair"<i>Hairstylist</i></span></h1>
+                    <img class="sharon" src="{% static '300/IMG_4847.jpg' %}" alt="Sharon Haddaway">
+                   
+                    <a href="https://www.facebook.com/sharon.wheatley.33"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a href="https://twitter.com/colorapplies"><i class="fa fa-twitter fa-2x "></i><a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large">Tweet</a></li></a> 
+                  
+                </header>
+                </div>
+            </div>
+        </div>
+
+        {% block content%}
+
+        {% endblock content%}
+        </div>
+                
+        <br/>
+        <br/>
+
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"> 
+            <div class="row">
+
+                <section>
+                    <h2><bold>Greg's Hair Design</bold></h2>
+                    <address>2056 East 3300 South <br> Salt Lake City, UT 84109</address>
+                    <tel><b>Cell</b>: (385) 290-8925 <br></tel>
+                    <tel><b>Salon</b>: (801) 484-1690 </tel><br><br> 
+                </section>
+           </div>
+        </div>
+
+
+                <div class="col-md-6 col-md-offset-3">
+                    <div id="map" style="min-height:400px;min-width:50%"></div>
+                    <br/>
+                    <br/> 
+                </div>
+ 
+         
+          
+<img class="cutting" src="{% static 'images/cutting.jpg' %}" id="image" alt="hair">  
+     
+        
+        <p class="copy">Created 2015</p> 
+        <img class="django" src="https://www.djangoproject.com/m/img/badges/djangomade124x25_grey.gif" border="0" alt="Made with Django." title="Made with Django."/>  
+
+</div>
+    
+
+
+
+    <! ---- Main Javascript files ---->
+    
+    
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="{% static 'js/javascript.js' %}"></script>
+
+
+   
+</body>
+ 
+</html>

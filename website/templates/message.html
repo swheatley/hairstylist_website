@@ -1,0 +1,22 @@
+{% extends 'base2.html' %}
+{% load staticfiles%}
+
+
+{% block content %}
+
+
+<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="row"> 
+              {% if messages %}
+                <ul class="messages">
+                    {% for message in messages %}
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+     <img class="salon" src="{% static 'images/salon.jpg'%}">
+     <a class="senior_button" href="/"><button class="btn btn-default">Return to main page</button></a>
+
+
+{% endblock %}
